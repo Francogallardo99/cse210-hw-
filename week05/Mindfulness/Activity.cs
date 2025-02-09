@@ -35,19 +35,16 @@ public abstract class Activity
     }
     protected void Pause(int seconds)
     {
-        // Lista de cadenas para la animación
         List<string> animationStrings = new List<string>
         {
-            "|", "/", "─", "\\", "|", "/", "─", "\\"
+            "|", "/", "─", "\\"
         };
-
-        // Repetir la animación durante la cantidad de segundos especificada
         for (int i = 0; i < seconds; i++)
         {
             foreach (var animation in animationStrings)
             {
-                Console.Write($"\r{animation}");  // El "\r" asegura que el texto se sobrescriba en la misma línea
-                Thread.Sleep(250);  // Pausa de 250 milisegundos por cada ciclo de animación
+                Console.Write($"\r{animation}");
+                Thread.Sleep(250);
             }
         }
         Console.WriteLine();
