@@ -1,0 +1,3 @@
+SimpleGoal|go church|Go to the church every week|100
+EternalGoal|married in the temple|Get married with my wife in the temple|110000
+ChecklistGoal|go the temple|go temple every week|100

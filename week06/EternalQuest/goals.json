@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "Correr un maratón",
+    "Points": 1000,
+    "IsCompleted": true
+  },
+  {
+    "Name": "Leer las escrituras",
+    "Points": 100,
+    "IsCompleted": false
+  },
+  {
+    "TimesRequired": 10,
+    "TimesCompleted": 2,
+    "BonusPoints": 500,
+    "Name": "Asistir al templo",
+    "Points": 150,
+    "IsCompleted": false
+  }
+]
