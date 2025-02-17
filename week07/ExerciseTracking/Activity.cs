@@ -11,7 +11,7 @@ public abstract class Activity
     }
     public abstract double GetDistance();
     public abstract double GetSpeed();
-    public abstract double GetPace ();
+    public abstract double GetPace();
     public virtual string GetSummary()
     {
         return $"Activity: {Name}, Duration: {DurationMinutes} minutes, Distance: {GetDistance():0.00} km, Speed: {GetSpeed():0.00} km/h, Pace: {GetPace():0.00} min/km";

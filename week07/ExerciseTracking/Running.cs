@@ -13,5 +13,8 @@ public class Running : Activity
     {
         return (DistanceKm / DurationMinutes) * 60;
     }
-    public override double GetPace() => DurationMinutes / GetDistance();
+    public override double GetPace()
+    {
+        return DurationMinutes / DistanceKm;
+    }
 }
